@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E3B|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_DC_BATTERY_V: 369.25
+  response: 17FE007B05621E3B05C5
+- expected_values:
+    TAVASCAN_DC_BATTERY_V: 377.5
+  response: 17FE007B05621E3B05E6
+- expected_values:
+    TAVASCAN_DC_BATTERY_V: 386.25
+  response: 17FE007B05621E3B0609

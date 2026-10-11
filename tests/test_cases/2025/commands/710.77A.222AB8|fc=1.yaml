@@ -1,0 +1,32 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 33.7
+  response: |-
+    77A100B622AB8000005
+    77A214400000000AAAA
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 38.35
+  response: |-
+    77A100B622AB8000005
+    77A21FE00000000AAAA
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 38.7
+  response: |-
+    77A100B622AB8000006
+    77A210C00000000AAAA
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 47.575
+  response: |-
+    77A100B622AB8000007
+    77A216F00000000AAAA
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 54.4
+  response: |-
+    77A100B622AB8000008
+    77A218000000000AAAA
+- expected_values:
+    TAVASCAN_HVBAT_KWH: 75.375
+  response: |-
+    77A100B622AB800000B
+    77A21C700000000AAAA

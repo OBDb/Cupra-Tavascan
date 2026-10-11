@@ -1,0 +1,8 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    TAVASCAN_HVAC_IAT: 24.1
+  response: 7B00562261300F1
+- expected_values:
+    TAVASCAN_HVAC_IAT: 25.6
+  response: 7B0056226130100

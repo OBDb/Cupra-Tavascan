@@ -1,0 +1,29 @@
+command_id: FC00.FE0076.224675|ta=76,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 361
+  response: 17FE0076056246750E1A
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 367
+  response: 17FE0076056246750E56
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 370.3
+  response: 17FE0076056246750E77
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 370.5
+  response: 17FE0076056246750E79
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 370.8
+  response: 17FE0076056246750E7C
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 371.8
+  response: 17FE0076056246750E86
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 373.8
+  response: 17FE0076056246750E9A
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 374.3
+  response: 17FE0076056246750E9F
+- expected_values:
+    TAVASCAN_HVBAT_V_TRAC: 374.5
+  response: 17FE0076056246750EA1

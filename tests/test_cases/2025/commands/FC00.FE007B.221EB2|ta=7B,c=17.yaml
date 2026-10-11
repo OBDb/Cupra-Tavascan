@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221EB2|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_5: 12.125
+  response: 17FE007B05621EB201A1
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_5: 12.5
+  response: 17FE007B05621EB201A4
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_5: 14.625
+  response: 17FE007B05621EB201B5
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_5: 14.75
+  response: 17FE007B05621EB201B6

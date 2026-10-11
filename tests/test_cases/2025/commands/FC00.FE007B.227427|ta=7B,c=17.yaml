@@ -1,0 +1,20 @@
+command_id: FC00.FE007B.227427|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 419
+  response: 17FE007B0562742701A3
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 420
+  response: 17FE007B0562742701A4
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 421
+  response: 17FE007B0562742701A5
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 438
+  response: 17FE007B0562742701B6
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 439
+  response: 17FE007B0562742701B7
+- expected_values:
+    TAVASCAN_HVBAT_MOD_T_19: 440
+  response: 17FE007B0562742701B8

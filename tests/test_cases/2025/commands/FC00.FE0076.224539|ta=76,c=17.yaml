@@ -1,0 +1,26 @@
+command_id: FC00.FE0076.224539|ta=76,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_ACCEL_V3: 0
+  response: 17FE0076056245390000
+- expected_values:
+    TAVASCAN_ACCEL_V3: 0.103
+  response: 17FE0076056245390067
+- expected_values:
+    TAVASCAN_ACCEL_V3: 0.433
+  response: 17FE00760562453901B1
+- expected_values:
+    TAVASCAN_ACCEL_V3: 0.494
+  response: 17FE00760562453901EE
+- expected_values:
+    TAVASCAN_ACCEL_V3: 0.723
+  response: 17FE00760562453902D3
+- expected_values:
+    TAVASCAN_ACCEL_V3: -0.903
+  response: 17FE007605624539FC79
+- expected_values:
+    TAVASCAN_ACCEL_V3: -0.133
+  response: 17FE007605624539FF7B
+- expected_values:
+    TAVASCAN_ACCEL_V3: -0.03
+  response: 17FE007605624539FFE2

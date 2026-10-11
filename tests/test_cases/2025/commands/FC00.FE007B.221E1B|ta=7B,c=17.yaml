@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E1B|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_I_LIM_CHG: 205.6
+  response: 17FE007B05621E1B0404
+- expected_values:
+    TAVASCAN_HVBAT_I_LIM_CHG: 305.6
+  response: 17FE007B05621E1B05F8
+- expected_values:
+    TAVASCAN_HVBAT_I_LIM_CHG: 307.2
+  response: 17FE007B05621E1B0600
