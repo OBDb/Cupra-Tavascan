@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.22295A|ta=76,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_ENG_ODO: 3719
+  response: 17FE00760662295A000E87
+- expected_values:
+    TAVASCAN_ENG_ODO: 3726
+  response: 17FE00760662295A000E8E
+- expected_values:
+    TAVASCAN_ENG_ODO: 3733
+  response: 17FE00760662295A000E95
+- expected_values:
+    TAVASCAN_ENG_ODO: 3734
+  response: 17FE00760662295A000E96

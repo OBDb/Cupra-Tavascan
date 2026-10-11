@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB5|fc=1
+test_cases:
+- expected_values:
+    TAVASCAN_RANGE_EST_CAN: 166
+  response: |-
+    77A100D622AB500A600
+    77A210000A600000000
+- expected_values:
+    TAVASCAN_RANGE_EST_CAN: 175
+  response: |-
+    77A100D622AB500AF00
+    77A210000AF00000000
+- expected_values:
+    TAVASCAN_RANGE_EST_CAN: 254
+  response: |-
+    77A100D622AB500FE00
+    77A210000FE00000000
+- expected_values:
+    TAVASCAN_RANGE_EST_CAN: 257
+  response: |-
+    77A100D622AB5010100
+    77A2100010100000000
+- expected_values:
+    TAVASCAN_RANGE_EST_CAN: 389
+  response: |-
+    77A100D622AB5018500
+    77A2100018500000000

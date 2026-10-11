@@ -1,0 +1,23 @@
+command_id: FC00.FE007B.22028C|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_SOC_V2: 64.8
+  response: 17FE007B0462028CA2
+- expected_values:
+    TAVASCAN_SOC_V2: 65.2
+  response: 17FE007B0462028CA3
+- expected_values:
+    TAVASCAN_SOC_V2: 69.2
+  response: 17FE007B0462028CAD
+- expected_values:
+    TAVASCAN_SOC_V2: 69.6
+  response: 17FE007B0462028CAE
+- expected_values:
+    TAVASCAN_SOC_V2: 70
+  response: 17FE007B0462028CAF
+- expected_values:
+    TAVASCAN_SOC_V2: 85.6
+  response: 17FE007B0462028CD6
+- expected_values:
+    TAVASCAN_SOC_V2: 86
+  response: 17FE007B0462028CD7

@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E7F|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_CELL_V_064: 3.778
+  response: 17FE007B05621E7F0ADA
+- expected_values:
+    TAVASCAN_HVBAT_CELL_V_064: 3.856
+  response: 17FE007B05621E7F0B28
+- expected_values:
+    TAVASCAN_HVBAT_CELL_V_064: 4.047
+  response: 17FE007B05621E7F0BE7

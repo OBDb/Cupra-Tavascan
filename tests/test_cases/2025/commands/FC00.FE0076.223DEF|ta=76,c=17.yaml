@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.223DEF|ta=76,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_SOC_FC00: 65
+  response: 17FE007605623DEF1964
+- expected_values:
+    TAVASCAN_SOC_FC00: 65.5
+  response: 17FE007605623DEF1996
+- expected_values:
+    TAVASCAN_SOC_FC00: 69
+  response: 17FE007605623DEF1AF4
+- expected_values:
+    TAVASCAN_SOC_FC00: 69.5
+  response: 17FE007605623DEF1B26

@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221E0E|ta=7B,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_HVBAT_T_MAX_ID: 9
+    TAVASCAN_HVBAT_T_MAX_V2: 12.5
+  response: 17FE007B07621E0E03200009
+- expected_values:
+    TAVASCAN_HVBAT_T_MAX_ID: 9
+    TAVASCAN_HVBAT_T_MAX_V2: 12.75
+  response: 17FE007B07621E0E03300009
+- expected_values:
+    TAVASCAN_HVBAT_T_MAX_ID: 9
+    TAVASCAN_HVBAT_T_MAX_V2: 15
+  response: 17FE007B07621E0E03C00009

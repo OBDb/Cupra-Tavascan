@@ -1,0 +1,29 @@
+command_id: FC00.FE0076.220344|ta=76,c=17
+test_cases:
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 0
+  response: 17FE0076056203440000
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 4
+  response: 17FE0076056203440008
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 25.5
+  response: 17FE0076056203440033
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 61
+  response: 17FE007605620344007A
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 92
+  response: 17FE00760562034400B8
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: 140.5
+  response: 17FE0076056203440119
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: -111.5
+  response: 17FE007605620344FF21
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: -21.5
+  response: 17FE007605620344FFD5
+- expected_values:
+    TAVASCAN_MOTOR_TRQ_RATED_FRONT: -8.5
+  response: 17FE007605620344FFEF
